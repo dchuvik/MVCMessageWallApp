@@ -3,28 +3,27 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MVCMessageWall.Controllers
 {
-    public class MessageWallController : Controller
+    public class PersonInfoController : Controller
     {
-
-        // GET: MessageWallController
+        // GET: PersonInfoController
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: MessageWallController/Details/5
+        // GET: PersonInfoController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: MessageWallController/Create
+        // GET: PersonInfoController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: MessageWallController/Create
+        // POST: PersonInfoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -39,13 +38,13 @@ namespace MVCMessageWall.Controllers
             }
         }
 
-        // GET: MessageWallController/Edit/5
+        // GET: PersonInfoController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: MessageWallController/Edit/5
+        // POST: PersonInfoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -60,13 +59,13 @@ namespace MVCMessageWall.Controllers
             }
         }
 
-        // GET: MessageWallController/Delete/5
+        // GET: PersonInfoController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: MessageWallController/Delete/5
+        // POST: PersonInfoController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
